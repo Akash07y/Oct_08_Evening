@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite123]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testNGTest.FacebookTest_3">
+        <methods>
+          <include name="closedBrowser"/>
+          <include name="clearPOMObjects"/>
+          <include name="veirifyPrivacyPlicies"/>
+          <include name="veirifyCookiesPolicies"/>
+          <include name="launchBrowser"/>
+          <include name="afterMethod"/>
+          <include name="creatPOMObjects"/>
+          <include name="goToSignUpFrom"/>
+        </methods>
+      </class> <!-- testNGTest.FacebookTest_3 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite123] -->

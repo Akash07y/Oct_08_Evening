@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="0" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-09T19:41:19 IST" name="Failed suite [Suite123]" finished-at="2023-02-09T19:41:29 IST" duration-ms="9570">
+    <groups>
+    </groups>
+    <test started-at="2023-02-09T19:41:19 IST" name="ChromeTest(failed)" finished-at="2023-02-09T19:41:29 IST" duration-ms="9570">
+      <class name="testNGTest.FacebookTest_3">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGTest.FacebookTest_3@9225652]" started-at="2023-02-09T19:41:19 IST" name="launchBrowser" finished-at="2023-02-09T19:41:20 IST" duration-ms="1285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="creatPOMObjects()[pri:0, instance:testNGTest.FacebookTest_3@9225652]" started-at="2023-02-09T19:41:20 IST" name="creatPOMObjects" finished-at="2023-02-09T19:41:21 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatPOMObjects -->
+        <test-method is-config="true" signature="goToSignUpFrom()[pri:0, instance:testNGTest.FacebookTest_3@9225652]" started-at="2023-02-09T19:41:21 IST" name="goToSignUpFrom" finished-at="2023-02-09T19:41:22 IST" duration-ms="1969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpFrom -->
+        <test-method signature="veirifyCookiesPolicies()[pri:0, instance:testNGTest.FacebookTest_3@9225652]" started-at="2023-02-09T19:41:22 IST" name="veirifyCookiesPolicies" finished-at="2023-02-09T19:41:28 IST" duration-ms="5913" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testNGTest.FacebookTest_3.veirifyCookiesPolicies(FacebookTest_3.java:107)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veirifyCookiesPolicies -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGTest.FacebookTest_3@9225652]" started-at="2023-02-09T19:41:28 IST" name="afterMethod" finished-at="2023-02-09T19:41:28 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="veirifyPrivacyPlicies()[pri:0, instance:testNGTest.FacebookTest_3@9225652]" started-at="2023-02-09T19:41:28 IST" name="veirifyPrivacyPlicies" finished-at="2023-02-09T19:41:28 IST" depends-on-methods="testNGTest.FacebookTest_3.veirifyCookiesPolicies" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FacebookTest_3.veirifyPrivacyPlicies()[pri:0, instance:testNGTest.FacebookTest_3@9225652] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FacebookTest_3.veirifyPrivacyPlicies()[pri:0, instance:testNGTest.FacebookTest_3@9225652] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veirifyPrivacyPlicies -->
+        <test-method is-config="true" signature="clearPOMObjects()[pri:0, instance:testNGTest.FacebookTest_3@9225652]" started-at="2023-02-09T19:41:29 IST" name="clearPOMObjects" finished-at="2023-02-09T19:41:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObjects -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testNGTest.FacebookTest_3@9225652]" started-at="2023-02-09T19:41:29 IST" name="closedBrowser" finished-at="2023-02-09T19:41:29 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testNGTest.FacebookTest_3 -->
+    </test> <!-- ChromeTest(failed) -->
+  </suite> <!-- Failed suite [Suite123] -->
+</testng-results>
