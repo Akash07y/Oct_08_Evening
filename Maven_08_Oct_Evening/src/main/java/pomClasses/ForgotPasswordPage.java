@@ -11,8 +11,11 @@ public class ForgotPasswordPage {
 	@FindBy (xpath = "//table//tr[1]//td[2]//div") 
 	private WebElement forgotMessage ;
 	
-	@FindBy (xpath = "(//input[@name='email'])[2]") 
-	private WebElement emailOrMobile ;
+// 	@FindBy (xpath = "(//input[@name='email'])[2]") 
+// 	private WebElement emailOrMobile ;
+	
+	@FindBy (xpath = "(//input[@name='email1234567'])[2]") 
+ 	private WebElement emailOrMobile12345 ;
 	
 	@FindBy (xpath = "//a[text()='Cancel']") 
 	private WebElement cancelButton ;
