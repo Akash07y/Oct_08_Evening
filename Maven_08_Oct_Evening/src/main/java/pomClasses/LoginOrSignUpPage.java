@@ -45,7 +45,7 @@ public class LoginOrSignUpPage {
 	}
 	
 	public void clickOnLoginButton(){
-		loginButton.click();
+		loginButton.getText();
 	}
 	
 	public void clickOnForgotPassword() {
