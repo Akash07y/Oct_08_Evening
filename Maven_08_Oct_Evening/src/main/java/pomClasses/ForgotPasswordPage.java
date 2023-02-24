@@ -47,4 +47,8 @@ public class ForgotPasswordPage {
 	public void clickOnSearchButton() {
 		searchButton.click();
 	}
+	
+	public void clickOnSearchButton123456() {
+		searchButton.click();
+	}
 }
