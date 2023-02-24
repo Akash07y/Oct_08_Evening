@@ -45,7 +45,7 @@ public class LoginOrSignUpPage {
 	}
 	
 	public void clickOnLoginButton(){
-		loginButton.click();
+		loginButton.sendKeys("23456789");
 	}
 	
 	public void clickOnForgotPassword() {
